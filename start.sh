@@ -1,5 +1,4 @@
-#!/data/data/com.termux/files/usr/bin/bash
+#!/bin/bash
 
-echo "در حال اجرای Xray..."
-cd xray
-./xray -c config.json
+# Run Xray with config.json
+./xray/xray -config config.json
