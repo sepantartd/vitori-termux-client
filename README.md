@@ -26,7 +26,7 @@ bash install.sh
 ```
 
 ## ▶️ اجرا
-cd vitori-client
+cd vitori-termux-client
 
 سپس:
 
