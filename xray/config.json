@@ -1,0 +1,46 @@
+{
+  "log": {
+    "loglevel": "warning"
+  },
+  "inbounds": [
+    {
+      "port": 1080,
+      "listen": "127.0.0.1",
+      "protocol": "socks",
+      "settings": {
+        "udp": true
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "107.181.134.210",
+            "port": 22246,
+            "users": [
+              {
+                "id": "5216aaa2-607f-4df4-9d9e-ddd2dfce72ce",
+                "encryption": "none"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "security": "reality",
+        "realitySettings": {
+          "show": false,
+          "fingerprint": "chrome",
+          "serverName": "ue-author.semiconductor.samsung.com",
+          "publicKey": "XD1aOXWeQEY8wMUmAGQGApk9NGRBgLMq1eh4jgMTNlo",
+          "shortId": "0700",
+          "spiderX": "/36cc708989f0a3f"
+        }
+      }
+    }
+  ]
+}
