@@ -26,10 +26,13 @@ bash install.sh
 ```
 
 ## ▶️ اجرا
+cd vitori-client
 
-```bash
+سپس:
+
+
 bash start.sh
-```
+
 
 پس از اجرا، یک پروکسی **SOCKS5** روی آدرس **127.0.0.1:1080** ایجاد می‌شود.
 
